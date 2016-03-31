@@ -1,4 +1,4 @@
-== Installation
+#Installation
 
 This package can be distributed with distutils
 
@@ -8,7 +8,7 @@ Unzip the resultant file (found in the newly created dist folder) and, from with
 
 `python3 setup.py install`
 
-== What is RetroBrowser?
+#What is RetroBrowser?
 
 RetroBrowser is a console-based, text version of the Grails web framework. Contrary to what you would expect, it is
 written in Python, not Groovy. This project was originally designed as the sample Groovy project in the future
@@ -46,6 +46,6 @@ it is ill-formed, a 400 error is thrown by setting the builder's package/control
 * bin/retroBrowser: This simple script gets the package name from command line input and kicks of the GrailsText main_loop.
 
 
-== Testing
+#Testing
 doctest is used. To run all tests, execute
 `python3 tests/retrobrowser.py`
