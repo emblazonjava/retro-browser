@@ -1,0 +1,12 @@
+#!/usr/bin/env python3
+
+import sys
+import retrobrowser.framework.retrobrowser as rb
+
+retro_browser = rb.RetroBrowser()
+# Expect just one argument, ignore the rest, fail if there is none
+if len(sys.argv) == 1:
+    print ('You must provide the package name for the app')
+    sys.exit()
+package = sys.argv[1]
+retro_browser.main_loop(package)
