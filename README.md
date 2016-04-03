@@ -10,7 +10,7 @@ Unzip the resultant file (found in the newly created dist folder) and, from with
 
 #What is RetroBrowser?
 
-RetroBrowser is a low-tech implementation of Grails... written in Python. Grails, at it's simplest, is a pleasant 
+RetroBrowser is a low-tech rewrite of Grails... written in Python. Grails, at it's simplest, is a pleasant 
 implementation of the Model-View-Controller framework built on the JVM. For RetroBrowser, I looked at Grails as if 
 it were a “specification” rather than an implementation. From that specification, I subtracted the requirement of 
 HTML rendering. RetroBrowser is just that: a retro browser; it runs a Model-View-Controller framework in the 
