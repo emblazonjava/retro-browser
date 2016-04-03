@@ -10,11 +10,15 @@ Unzip the resultant file (found in the newly created dist folder) and, from with
 
 #What is RetroBrowser?
 
-RetroBrowser is a console-based, text version of the Grails web framework. Contrary to what you would expect, it is
-written in Python, not Groovy. This project was originally designed as the sample Groovy project in the future
-Volume 2 of "From Zero to Grails," an introductory Groovy/Grails book.
+RetroBrowser is a low-tech implementation of Grails... written in Python. Grails, at it's simplest, is a pleasant 
+implementation of the Model-View-Controller framework built on the JVM. For RetroBrowser, I looked at Grails as if 
+it were a “specification” rather than an implementation. From that specification, I subtracted the requirement of 
+HTML rendering. RetroBrowser is just that: a retro browser; it runs a Model-View-Controller framework in the 
+command line. 
 
-The grailstext package stands alone as a framework that will run separate "application" packages. It is the analog of the
+#How Does it Work?
+
+The retrobrowser package stands alone as a framework that will run separate "application" packages. It is the analog of the
 Grails framework. The [tictactoe](https://github.com/allisonf/tic-tac-toe) package is the analog of what a developer writes 
 when they write a Grails application.
 
