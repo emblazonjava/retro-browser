@@ -1,20 +1,43 @@
 #Installation
 
-This package can be distributed with distutils
+This is a Python 3 application and requires version 3.2 or greater.
 
-`python3 setup.py sdist`
+This package can be installed with pip, which comes along with Python 3.4 and above. If downloading from this 
+repository, you will need to build the distribution and then install it locally:
 
-Unzip the resultant file (found in the newly created dist folder) and, from within, execute:
+`python3 setup.py sdist --formats=zip`
 
-`python3 setup.py install`
+This will create a `dist` folder in the base directory and in it you will find a file called `RetroBrowser-0.1.zip`.
+
+Copy `RetroBrowser-0.1.zip` to a temporary location where you can unzip it. The unzipped folder still needs
+to be installed. To install, make sure you are in the directory containing `RetroBrowser-0.1.zip` and execute:
+
+`pip3 install -e RetroBrowser-0.1`
 
 #What is RetroBrowser?
 
-RetroBrowser is a low-tech rewrite of Grails... written in Python. Grails, at it's simplest, is a pleasant 
-implementation of the Model-View-Controller framework built on the JVM. For RetroBrowser, I looked at Grails as if 
-it were a “specification” rather than an implementation. From that specification, I subtracted the requirement of 
-HTML rendering. RetroBrowser is just that: a retro browser; it runs a Model-View-Controller framework in the 
-command line. 
+I think there's language framework explosion these days. There's a runaway of escalation of processor and bandwidth
+requirements for modern apps. Our computers, phones, and network connections are orders of magnitude faster than they
+were 15 years ago, but sites are still slow; apps lag.
+
+RetroBrowser is a super-lightweight proof-of-concept framework that uses the same specification as a web-app 
+model-view-controller framework to create a desktop framework for the command line. 
+
+It's a low-tech implementation of Grails... written in Python. For RetroBrowser, I looked at Grails as if it 
+were a “specification” rather than an implementation. For this early version, I subtracted the requirement to render 
+HTML and instead let views be rendered as plaintext. A sample app, TicTacToe, has been implemented. The game is 
+played by entering URL's and query strings at the command prompt.
+
+#Apps
+
+RetroBrowser is an mvc framework; it doesn't do anything by itself.
+
+To see it do something, you'll have to install an app to run on it:
+
+* [TicTacToe](https://github.com/allisonf/tic-tac-toe)
+
+#What major feature is in the pipeline for the 0.2 release?
+
 
 #How Does it Work?
 
