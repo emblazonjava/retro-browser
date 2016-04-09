@@ -38,6 +38,9 @@ To see it do something, you'll have to install an app to run on it:
 
 #What major feature is in the pipeline for the 0.2 release?
 
+Whitelisting URLs for improved endpoint security. [ConventionCrawler](https://github.com/allisonf/convention-crawler)
+it under development to crawl a RetroBrowser app and programmatically determine it's valid endpoints from the
+controllers and actions it finds.
 
 #How Does it Work?
 
