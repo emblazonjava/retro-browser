@@ -1,4 +1,4 @@
-#Installation
+# Installation
 
 This is a Python 3 application and requires version 3.2 or greater.
 
@@ -14,7 +14,7 @@ to be installed. To install, make sure you are in the directory containing `Retr
 
 `pip3 install -e RetroBrowser-0.1`
 
-#What is RetroBrowser?
+# What is RetroBrowser?
 
 I think there's language framework explosion these days. There's a runaway of escalation of processor and bandwidth
 requirements for modern apps. Our computers, phones, and network connections are orders of magnitude faster than they
@@ -28,7 +28,7 @@ were a “specification” rather than an implementation. For this early version
 HTML and instead let views be rendered as plaintext. A sample app, TicTacToe, has been implemented. The game is 
 played by entering URL's and query strings at the command prompt.
 
-#Apps
+# Apps
 
 RetroBrowser is an mvc framework; it doesn't do anything by itself.
 
@@ -36,13 +36,13 @@ To see it do something, you'll have to install an app to run on it:
 
 * [TicTacToe](https://github.com/allisonf/tic-tac-toe)
 
-#What major feature is in the pipeline for the 0.2 release?
+# What major feature is in the pipeline for the 0.2 release?
 
 Whitelisting URLs for improved endpoint security. [ConventionCrawler](https://github.com/allisonf/convention-crawler)
 it under development to crawl a RetroBrowser app and programmatically determine it's valid endpoints from the
 controllers and actions it finds.
 
-#How Does it Work?
+# How Does it Work?
 
 The retrobrowser package stands alone as a framework that will run separate "application" packages. It is the analog of the
 Grails framework. The [tictactoe](https://github.com/allisonf/tic-tac-toe) package is the analog of what a developer writes 
@@ -76,6 +76,6 @@ it is ill-formed, a 400 error is thrown by setting the builder's package/control
 * bin/retroBrowser: This simple script gets the package name from command line input and kicks of the GrailsText main_loop.
 
 
-#Testing
+# Testing
 doctest is used. To run all tests, execute
 `python3 tests/retrobrowser.py`
